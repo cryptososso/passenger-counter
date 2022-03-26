@@ -1,0 +1,114 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background-image: url("./img/train-station.avif");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+   text-align: center;
+   color: #fff;
+   font-weight: 900;
+   font-size: 1.5rem;
+   padding-top: 3em;
+}
+
+.container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 90%;
+   margin: 0 auto;
+   height: 50vh;
+}
+
+h1{
+   font-size: 2.8rem;
+   text-shadow: 5px 0 10px #000, 2px 0 6px lightgrey;
+   margin-top: 3em;
+   text-align: center;
+}
+
+#count-el{
+   font-size: 3rem;
+   font-weight: 900;
+   margin-bottom: 1.2em;
+   text-shadow: 5px 0 10px #000, 2px 0 6px lightgrey;
+}
+
+#increment-btn{
+  width: 300px;
+  text-transform: uppercase;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 0.5em;
+  background-color: orangered;
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin-bottom: 1.5em;
+}
+
+#save-btn{
+   width: 300px;
+   text-transform: uppercase;
+   padding: 1em 2em;
+   border: none;
+   border-radius: 0.5em;
+   background-color: darkgreen;
+   color: #fff;
+   font-weight: 900;
+   letter-spacing: 1px;
+   margin-bottom: 1.5em;
+}
+
+#decrement-btn{
+  width: 300px;
+  text-transform: uppercase;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 0.5em;
+  background-color: darkblue;
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin-bottom: 2em;
+}
+
+#reset-btn{
+   width: 300px;
+   text-transform: uppercase;
+   padding: 1em 2em;
+   border: none;
+   border-radius: 0.5em;
+   background-color: #000;
+   color: #fff;
+   font-weight: 900;
+   letter-spacing: 1px;
+   margin-bottom: 1.3em;
+}
+
+p{
+   font-size: 1.5rem;
+   color: #fff;
+   font-weight: 900;
+   opacity: 1;
+   text-shadow: 5px 0 10px #000, 2px 0 6px lightgrey;
+}
+
+#people-count{
+   display: block;
+   font-size: 1.8rem;
+}
+
+
+
+
+
+
+
